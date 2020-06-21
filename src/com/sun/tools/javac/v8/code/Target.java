@@ -60,7 +60,8 @@ public final class Target {
     public static final Target JDK1_4 = new Target("1.4", 48, 0);
     public static final Target JDK1_4_1 = new Target("1.4.1", 48, 0);
     public static final Target JDK1_4_2 = new Target("1.4.2", 48, 0);
-    public static final Target DEFAULT = JDK1_2;
+    public static final Target JDK1_8 = new Target("1.8", 52, 0);
+    public static final Target DEFAULT = JDK1_8;
 
     public static Target lookup(String name) {
         return (Target) tab.get(name);
